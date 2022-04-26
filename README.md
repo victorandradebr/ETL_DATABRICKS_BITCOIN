@@ -1,4 +1,4 @@
-Este projeto se trata de um simples etl com um dataset com as variações dos preços diários do bitcoin. Os códigos do notebook foram desenvolvidos tanto em pyspark quanto em sql, numa simulação de solucão referentes a perguntas de négocio:
+Este projeto se trata de um simples etl com um dataset com as variações dos preços diários do bitcoin no período de 2020-2022. Os códigos do notebook foram desenvolvidos tanto em pyspark quanto em sql, numa simulação de solucão referentes a perguntas de négocio:
 
 - 1 - Qual foi o maior valor do bitcoin no mês de Abril de 2022? E o menor?
 - 2 - Qual a média do valor do fechamento do bitcoin no ano de 2021 em relação aos dados trabalhados?
@@ -39,7 +39,7 @@ file_location2 = "/PROCESSING_ZONE/Binance_file"
 )    
 ```
 
-Após foi feita a leitura no parquet salvo na etapa anterior e uma tratativa de enriquecimento e melhoria na tipagem dos dados, além da criação de um view para também realizarmos manipulações em SQL.
+Após foi feita a leitura no parquet salvo na etapa anterior e uma tratativa de enriquecimento e melhoria na tipagem dos dados, além da criação de uma view para também realizarmos manipulações em SQL.
 
 ```python
 # Lendo o dado de uma das zonas do datalake.
